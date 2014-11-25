@@ -15,7 +15,7 @@ import org.elasticsearch.client.Client;
 public class AppTest extends TestCase {
 	
 	public static final String HOST="";
-	public static final String POST="";
+	public static final int PORT=9300;
 	public static final String INDEX_NAME="index1";
 	public static final String MAPPING_NAME="person";
 	private Client client;
